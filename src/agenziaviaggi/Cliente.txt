@@ -1,0 +1,30 @@
+package agenziaviaggi;
+
+public class Cliente {
+	private String nome= new String();
+	private String cognome= new String();
+	/**
+	 * @param nome
+	 * @param cognome
+	 */
+	public Cliente(String nome, String cognome) {
+		super();
+		this.nome = nome;
+		this.cognome = cognome;
+	}
+	/**
+	 * @return the nome
+	 */
+	public String getNome() {
+		return nome;
+	}
+	/**
+	 * @return the cognome
+	 */
+	public String getCognome() {
+		return cognome;
+	}
+	
+	
+
+}

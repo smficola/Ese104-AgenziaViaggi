@@ -1,0 +1,32 @@
+package agenziaviaggi;
+
+public class Filiale {
+	private int numero;
+
+	/**
+	 * @param numero
+	 */
+	public Filiale(int numero) {
+		super();
+		this.numero = numero;
+	}
+
+	/**
+	 * @return the numero
+	 */
+	public int getNumero() {
+		return numero;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Filiale [numero=" + numero + "]";
+	}
+	
+
+	
+
+}
